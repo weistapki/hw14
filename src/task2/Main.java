@@ -10,7 +10,7 @@ public class Main {
         ListNode head = new ListNode(1, two);
         ListNode inversion = solution.reverseList(head);
 
-        System.out.println("The inverted list : ");
+        System.out.println("The Inverted list : ");
         while (inversion != null) {
             System.out.print(inversion.val + " ");
             inversion = inversion.next;

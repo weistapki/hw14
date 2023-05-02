@@ -8,12 +8,12 @@ public class Main {
         ListNode three = new ListNode(3, four);
         ListNode two = new ListNode(2, three);
         ListNode head = new ListNode(1, two);
-        ListNode exampleOne = solution.reverseList(head);
+        ListNode inversion = solution.reverseList(head);
 
-        System.out.println("Example One : ");
-        while (exampleOne != null) {
-            System.out.print(exampleOne.val + " ");
-            exampleOne = exampleOne.next;
+        System.out.println("The inverted list : ");
+        while (inversion != null) {
+            System.out.print(inversion.val + " ");
+            inversion = inversion.next;
         }
     }
 }
